@@ -63,7 +63,7 @@ alias chm='chmod -R'
 alias cho='chown -R'
 alias rsync='rsync -avzP'
 
-export PATH="${HOME}/.asdf/shims:/opt/homebrew/bin:${HOME}/.local/bin:${HOME}/.kubectx:${KREW_ROOT:-$HOME/.krew}/bin:${GOPATH}/bin:${PATH}"
+export PATH="$HOME/.asdf/shims:/opt/homebrew/bin:$HOME/.local/bin:$HOME/.kubectx:$GOPATH/bin:$PATH"
 # export PATH="$HOME/bin:/usr/bin:/bin:$HOME/.asdf/installs/python/$PYTHON_VERSION/bin:/usr/local/kubebuilder/bin:$HOME/.asdf/installs/rust/$RUST_VERSION/bin:$PATH"
 
 ###############################################################################

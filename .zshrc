@@ -2,6 +2,7 @@
 
 # Load universal shell configs
 [ -f ~/.universal.sh ] && . ~/.universal.sh
+[ -f ~/.universal_secrets.sh ] && . ~/.universal_secrets.sh
 
 # Setup shell framework
 export ZSH="${HOME}/.oh-my-zsh"

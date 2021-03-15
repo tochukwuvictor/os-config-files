@@ -1,12 +1,10 @@
 # Load universal shell configs
 [ -f ~/.universal.sh ] && . ~/.universal.sh
+[ -f ~/.universal_secrets.sh ] && . ~/.universal_secrets.sh
 
 # Load asdf configs
 [ -f ~/.asdf/asdf.fish ] && . ~/.asdf/asdf.fish
 [ -f ~/.asdf/completions/asdf.fish ] && . ~/.asdf/completions/asdf.fish
-
-# Load fuzzy finder configs
-# [ -f ~/.fzf.zsh ] && . ~/.fzf.zsh
 
 # Init zoxide
 which zoxide > /dev/null && zoxide init fish | source

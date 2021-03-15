@@ -2,6 +2,7 @@
 
 # Load universal shell configs
 [ -f ~/.universal.sh ] && . ~/.universal.sh
+[ -f ~/.universal_secrets.sh ] && . ~/.universal_secrets.sh
 
 # If not running interactively, don't do anything
 case $- in
